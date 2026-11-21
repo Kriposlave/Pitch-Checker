@@ -18,7 +18,7 @@ cp -R "$HERE/skills/pitch-checker" "$TARGET/skills/"
 cp "$HERE/agents/fact-researcher.md" "$HERE/agents/report-verifier.md" "$TARGET/agents/"
 
 echo ""
-echo "Готово. Агент установлен в $TARGET"
+echo "Готово! Агент установлен."
 if ! command -v python3 >/dev/null 2>&1; then
   echo "ВНИМАНИЕ: python3 не найден. Установите: brew install python (или с python.org)."
 fi
